@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: 'https://www.sdog.io/'
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
+    href: 'http://www.tuidog.com/farms'
   },
   {
     label: 'Nests',
     icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
+    href: 'http://www.tuidog.com/nests'
   },
   // {
   //   label: 'Lottery',
@@ -42,7 +42,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+        href: 'https://pancakeswap.info/token/0xd0b517949dcd0e758108e059f54cf72ea9d5b2cd',
       },
       {
         label: 'CoinGecko',
@@ -64,32 +64,32 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/singledogswap/",
       },
       {
         label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        href: "https://singledogswap.gitbook.io/singledogswap-finance/",
       },
       {
         label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        href: "https://singledogswap.medium.com/",
       },
     ],
   },
   {
     label: 'Partnerships/IFO',
     icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+    href: 'https://docs.google.com/',
   },
   {
     label: 'Audit by Hacken',
     icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+    href: 'https://www.sdog.io/files/hackenAudit.pdf',
   },
   {
     label: 'Audit by CertiK',
     icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
+    href: 'https://www.sdog.io/projects/singledog-finance',
   },
 ]
 
