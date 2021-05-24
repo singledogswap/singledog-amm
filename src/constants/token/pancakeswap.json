@@ -18,13 +18,6 @@
       "decimals": 18
     },
     {
-      "name": "Singledog Golden Shit",
-      "symbol": "SHIT",
-      "address": "0xd33ECa9E29603e4ebB7ab0Ffce08B0D6865f1D14",
-      "chainId": 97,
-      "decimals": 18
-    },
-    {
       "name": "AUTOv2",
       "symbol": "AUTO",
       "address": "0xa184088a740c695e156f91f5cc086a06bb78b827",
@@ -53,30 +46,6 @@
       "chainId": 97,
       "decimals": 18,
       "logoURI": "/images/coins/USDT-icon.png"
-    },
-    {
-      "name": "Singledog Busd",
-      "symbol": "BUSD",
-      "address": "0x81f66bca59D427aa94ABb1606B7f9DBAc53E1FBF",
-      "chainId": 97,
-      "decimals": 18,
-      "logoURI": "/images/coins/BUSD.png"
-    },
-    {
-      "name": "Singledog DOGE",
-      "symbol": "DOGE",
-      "address": "0x637d5c3DA65BFf63265771c8dE37fE3adb9E336e",
-      "chainId": 97,
-      "decimals": 18,
-      "logoURI": "/images/coins/DICE.png"
-    },
-    {
-      "name": "Singledog SDOG",
-      "symbol": "SDOG",
-      "address": "0xC412c6F351dB9e9A491d50811E438Ac8770A6f24",
-      "chainId": 97,
-      "decimals": 18,
-      "logoURI": "/images/coins/SDOG.png"
     },
     {
       "name": "Bakery Token",
