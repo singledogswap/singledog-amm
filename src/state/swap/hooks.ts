@@ -88,10 +88,18 @@ export function tryParseAmount(value?: string, currency?: Currency): CurrencyAmo
   return undefined
 }
 
+// bsc mainnet pancake factory and router address
+// const BAD_RECIPIENT_ADDRESSES: string[] = [
+//   '0xBCfCcbde45cE874adCB698cC183deBcF17952812', // v2 factory
+//   '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
+//   '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F', // v2 router 02
+// ]
+
+// single dog testnet factory and router address
 const BAD_RECIPIENT_ADDRESSES: string[] = [
-  '0xBCfCcbde45cE874adCB698cC183deBcF17952812', // v2 factory
+  '0x9491Ff09d125cFF7f968f7A9c8F0cf5df827bF0a', // v2 factory
   '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
-  '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F', // v2 router 02
+  '0x0C1FEd0B927877a401Fa287BbF3Ba927C7C6d20C', // v2 router 02
 ]
 
 /**
