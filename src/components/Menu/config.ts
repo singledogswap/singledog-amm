@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.sdog.io/'
+    href: 'http://www.tuidog.com/'
   },
   {
     label: 'Trade',
