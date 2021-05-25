@@ -26,6 +26,22 @@ if (loadedState.user) {
   loadedState.user.userDarkMode = getThemeCache()
 }
 
+// const store = configureStore({
+//   reducer: {
+//     application,
+//     user,
+//     transactions,
+//     swap,
+//     mint,
+//     burn,
+//     multicall,
+//     lists,
+//   },
+//   middleware: [...getDefaultMiddleware({ thunk: false }), save({ states: PERSISTED_KEYS })],
+//   preloadedState: loadedState,
+// })
+// const middlewares = [...getDefaultMiddleware({ thunk: false }), save({ states: PERSISTED_KEYS })];
+const middlewares = [...getDefaultMiddleware({ thunk: false }), save({ states: PERSISTED_KEYS })];
 const store = configureStore({
   reducer: {
     application,
@@ -37,10 +53,9 @@ const store = configureStore({
     multicall,
     lists,
   },
-  middleware: [...getDefaultMiddleware({ thunk: false }), save({ states: PERSISTED_KEYS })],
+  middleware: middlewares,
   preloadedState: loadedState,
 })
-
 store.dispatch(updateVersion())
 
 export default store
