@@ -25,6 +25,7 @@ const useGetPriceData = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        debugger
         if(multicallContract){
           const {cakeAddress, busdAddress, lpAddress} = priceContracts;
           const calls = [

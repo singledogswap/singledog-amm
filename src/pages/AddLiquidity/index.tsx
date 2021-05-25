@@ -136,6 +136,7 @@ export default function AddLiquidity({
     let method: (...args: any) => Promise<TransactionResponse>
     let args: Array<string | string[] | number>
     let value: BigNumber | null
+    debugger
     if (currencyA === ETHER || currencyB === ETHER) {
       const tokenBIsETH = currencyB === ETHER
       estimate = router.estimateGas.addLiquidityETH
@@ -166,7 +167,6 @@ export default function AddLiquidity({
     }
 
     setAttemptingTxn(true)
-    // const aa = await estimate(...args, value ? { value } : {})
     await estimate(...args, value ? { value } : {})
       .then((estimatedGasLimit) =>
         method(...args, {
