@@ -48,6 +48,14 @@
       "logoURI": "/images/coins/USDT-icon.png"
     },
     {
+      "name": "LP3 Token",
+      "symbol": "LP3",
+      "address": "0xe70b7523f4bffa1f2e88d2ba709afd026030f412",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/ETH.png"
+    },
+    {
       "name": "Bakery Token",
       "symbol": "BAKE",
       "address": "0xe02df9e3e622debdd69fb838bb799e3f168902c5",
