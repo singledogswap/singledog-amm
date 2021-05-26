@@ -97,9 +97,8 @@ export function tryParseAmount(value?: string, currency?: Currency): CurrencyAmo
 
 // single dog testnet factory and router address
 const BAD_RECIPIENT_ADDRESSES: string[] = [
-  '0x9491Ff09d125cFF7f968f7A9c8F0cf5df827bF0a', // v2 factory
-  '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
-  '0x0C1FEd0B927877a401Fa287BbF3Ba927C7C6d20C', // v2 router 02
+  '0xb661a2525fEafDc0c2c7258d4b1CEeC7d0f98B08', // v2 factory
+  '0x9EF882D86487CE65D30165B0E291BD49c65cbB31', // v2 router 02
 ]
 
 /**
